@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAEB | تائب</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #050505;
+      color: #fff;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 90px;
+      letter-spacing: 4px;
+      font-weight: 700;
+    }
+
+    .tagline {
+      color: #C9A24E;
+      font-size: 22px;
+      margin-top: 10px;
+    }
+
+    .desc {
+      max-width: 600px;
+      margin-top: 20px;
+      color: #aaa;
+      line-height: 1.8;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 12px 28px;
+      border: 1px solid #C9A24E;
+      color: #C9A24E;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #C9A24E;
+      color: #000;
+    }
+
+    /* SECTION */
+    .section {
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 28px;
+      color: #C9A24E;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .card {
+      border: 1px solid #222;
+      padding: 20px;
+      width: 220px;
+      border-radius: 10px;
+      background: #0b0b0b;
+    }
+
+    .quote {
+      margin-top: 20px;
+      color: #bbb;
+      font-style: italic;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid #111;
+      color: #666;
+      font-size: 13px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero container">
+    <div class="logo">TAEB</div>
+    <div class="tagline">سیستم بساز. آزادی خلق کن.</div>
+
+    <div class="desc">
+      من تائب هستم؛ بیزینس کوچ و استراتژیست. کمک می‌کنم کارآفرین‌ها از حالت خودکار خارج شوند
+      و برای کسب‌وکارشان سیستم واقعی بسازند.
+    </div>
+
+    <a class="btn" href="#">رزرو جلسه مشاوره</a>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section container">
+    <div class="title">درباره TAEB</div>
+    <p class="quote">
+      «موفقیت با کار بیشتر نیست، با سیستم درست است.»
+    </p>
+    <p style="color:#aaa; line-height:1.9;">
+      برند TAEB بر پایه تجربه واقعی، شکست، ساخت سیستم و رشد پایدار ساخته شده است.
+      هدف ما خروج کارآفرینان از روزمرگی و ساخت ساختار حرفه‌ای در کسب‌وکار است.
+    </p>
+  </div>
+
+  <!-- METHOD -->
+  <div class="section container">
+    <div class="title">متد ۳۵۹+۱</div>
+
+    <div class="cards">
+      <div class="card">۳ - ذهنیت</div>
+      <div class="card">۵ - استراتژی</div>
+      <div class="card">۹ - اجرا</div>
+      <div class="card">+۱ - ایمان</div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="section container">
+    <div class="title">خدمات</div>
+
+    <div class="cards">
+      <div class="card">
+        کوچینگ فردی<br><br>
+        سیستم‌سازی عمیق برای رشد واقعی
+      </div>
+
+      <div class="card">
+        مشاوره استراتژیک<br><br>
+        تصمیم‌های مهم کسب‌وکار
+      </div>
+
+      <div class="card">
+        کوچینگ گروهی<br><br>
+        رشد در کنار کارآفرینان
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    TAEB © 2026 — Build Systems. Build Legacy.
+  </div>
+
+</body>
+</html>
